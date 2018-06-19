@@ -18,12 +18,13 @@
     "cordova-ios",
     "cordova-android"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
+  "engines": {
+    "cordovaDependencies": {
+      ">0.0.1" : {
+        "cordova" : ">=3.0.0"
+      }
     }
-  ],
+  },
   "author": "Wymsee",
   "license": "MIT",
   "bugs": {
